@@ -18,7 +18,7 @@ It is out of scope for this article to explain:
 - database technologies works
 - all security solution available for disk storage such as file, blobs and databases
 
-<<diagram image goes here>>
+![image](https://github.com/rudneir2/DataClassification/assets/97529152/c797239b-239b-41a9-8e80-95a2a54f03da)
 
 Let's consider the following in the diagram:
 
