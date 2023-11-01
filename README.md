@@ -31,7 +31,7 @@ Let's consider the following in the diagram:
 **NOTE**
 Databases and files need to be clearly identified, as if they are public or confidential, for example. As the diagram below:
 
-
+<img width="650" alt="image" src="https://github.com/rudneir2/DataClassification/assets/97529152/e8b98327-6da0-4a21-b667-22aae88a5b95">
 
 6. in small companies or non-critical workloads, companies may store data directly in disk VMs, which is not recommended. So, somehow, you will need to take care of those data as well.
 7. in a hybrid environment, different personas, such as external developers, remote admins, and remote employees, may access workloads on-premises through different means such as VPNs, RDPs, SSH, etc, that they will connect to different data storage technologies or databases.
