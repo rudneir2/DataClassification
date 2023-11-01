@@ -27,6 +27,12 @@ Let's consider the following in the diagram:
 3. There are some companies that build their business continuity, such as high availability or disaster recovery, for their database between the on-premises environment and the public cloud, so you need to take care of your data on both sites.
 4. There are also scenarios where Remote administrators have to access Jump servers on the cloud, or sometimes a specific workload directly on the Virtual Machines.
 5. Those VMs then communicate with the database, such as a data warehouse, relational database, no-SQL DB, or storage behind it.
+
+**NOTE**
+Databases and files need to be clearly identified, as if they are public or confidential, for example. As the diagram below:
+
+
+
 6. in small companies or non-critical workloads, companies may store data directly in disk VMs, which is not recommended. So, somehow, you will need to take care of those data as well.
 7. in a hybrid environment, different personas, such as external developers, remote admins, and remote employees, may access workloads on-premises through different means such as VPNs, RDPs, SSH, etc, that they will connect to different data storage technologies or databases.
 8. as on the public cloud, those servers may connect to important data, that need to be classified and protected, such as file servers, object storage, and different types of databases, such as relational, no-SQL, and data warehouse.
